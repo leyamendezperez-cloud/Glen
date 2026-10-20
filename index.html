@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Glen</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="manifest" href="manifest.json" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="body">
+    <main class="escena">
+
+
+        <div class="texto texto--izquierda">
+            <p class="texto__frase">
+                A la chica que lleva en sí al <br>
+                <span class="texto__resaltado texto__resaltado--1">amor de todas mis vidas</span>
+            </p>
+        </div>
+
+
+        <div class="ramo-contenedor">
+            <svg class="escena__svg" viewBox="0 0 500 700" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid meet">
+                <defs>
+                    <linearGradient id="tallo-grad" x1="0" y1="680" x2="0" y2="150" gradientUnits="userSpaceOnUse">
+                        <stop offset="0%" stop-color="#2e4a22" />
+                        <stop offset="40%" stop-color="#5a7a4a" />
+                        <stop offset="80%" stop-color="#7b9e6a" />
+                        <stop offset="100%" stop-color="#4b6a3c" />
+                    </linearGradient>
+
+                    <linearGradient id="hoja-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#3e5a30" />
+                        <stop offset="50%" stop-color="#6f8f5c" />
+                        <stop offset="100%" stop-color="#9bb88a" />
+                    </linearGradient>
+
+                    <radialGradient id="petalo-luz" cx="30%" cy="30%" r="70%">
+                        <stop offset="0%" stop-color="#faf5ff" />
+                        <stop offset="30%" stop-color="#e8d5f2" />
+                        <stop offset="70%" stop-color="#c9a8e0" />
+                        <stop offset="100%" stop-color="#a67bc4" />
+                    </radialGradient>
+
+                    <radialGradient id="petalo-medio" cx="30%" cy="30%" r="70%">
+                        <stop offset="0%" stop-color="#e8d5f2" />
+                        <stop offset="50%" stop-color="#c9a8e0" />
+                        <stop offset="100%" stop-color="#9b6fbe" />
+                    </radialGradient>
+
+                    <radialGradient id="petalo-sombra" cx="30%" cy="30%" r="70%">
+                        <stop offset="0%" stop-color="#c9a8e0" />
+                        <stop offset="40%" stop-color="#9b6fbe" />
+                        <stop offset="80%" stop-color="#744b96" />
+                        <stop offset="100%" stop-color="#5e3a80" />
+                    </radialGradient>
+
+                    <radialGradient id="centro-flor" cx="50%" cy="50%" r="50%">
+                        <stop offset="0%" stop-color="#8a5fb0" />
+                        <stop offset="100%" stop-color="#4a2e6e" />
+                    </radialGradient>
+                </defs>
+
+
+                <g class="pasto">
+                    <path class="pasto__brizna" style="animation-delay: 0.8s;" d="M 180 680 Q 160 620 140 600"
+                        fill="none" stroke="#3e5a30" stroke-width="3" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 0.9s;" d="M 200 685 Q 180 610 160 580"
+                        fill="none" stroke="#4b6a3c" stroke-width="2.5" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 1.0s;" d="M 220 690 Q 200 600 190 570"
+                        fill="none" stroke="#5a7a4a" stroke-width="2" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 1.1s;" d="M 280 690 Q 300 600 310 570"
+                        fill="none" stroke="#3e5a30" stroke-width="3" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 1.2s;" d="M 300 685 Q 320 610 340 580"
+                        fill="none" stroke="#4b6a3c" stroke-width="2.5" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 1.3s;" d="M 320 680 Q 340 620 360 600"
+                        fill="none" stroke="#5a7a4a" stroke-width="2" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 1.4s;" d="M 160 690 Q 130 640 100 630"
+                        fill="none" stroke="#6f8f5c" stroke-width="2.5" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 1.5s;" d="M 170 685 Q 140 620 120 600"
+                        fill="none" stroke="#7b9e6a" stroke-width="2" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 1.6s;" d="M 340 690 Q 370 640 400 630"
+                        fill="none" stroke="#6f8f5c" stroke-width="2.5" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 1.7s;" d="M 330 685 Q 360 620 380 600"
+                        fill="none" stroke="#7b9e6a" stroke-width="2" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 1.8s;" d="M 230 690 Q 220 640 210 620"
+                        fill="none" stroke="#9bb88a" stroke-width="2" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 1.9s;" d="M 250 690 Q 240 630 230 600"
+                        fill="none" stroke="#8fae6b" stroke-width="2.5" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 2.0s;" d="M 270 690 Q 280 630 290 600"
+                        fill="none" stroke="#9bb88a" stroke-width="2" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 2.1s;" d="M 190 690 Q 180 650 170 630"
+                        fill="none" stroke="#8fae6b" stroke-width="2" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 2.2s;" d="M 310 690 Q 320 650 330 630"
+                        fill="none" stroke="#8fae6b" stroke-width="2" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 2.3s;" d="M 210 695 Q 190 650 180 640"
+                        fill="none" stroke="#7b9e6a" stroke-width="1.5" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 2.4s;" d="M 290 695 Q 310 650 320 640"
+                        fill="none" stroke="#7b9e6a" stroke-width="1.5" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 2.5s;" d="M 240 695 Q 230 660 220 650"
+                        fill="none" stroke="#9bb88a" stroke-width="1.5" stroke-linecap="round" />
+                    <path class="pasto__brizna" style="animation-delay: 2.6s;" d="M 260 695 Q 270 660 280 650"
+                        fill="none" stroke="#9bb88a" stroke-width="1.5" stroke-linecap="round" />
+                </g>
+
+                <g class="ramo">
+                    <!-- FLOR 1 (Izquierda extrema) -->
+                    <g class="tallo-grupo">
+                        <path class="tallo-grupo__base" d="M 250 680 Q 180 520 110 380" fill="none"
+                            stroke="url(#tallo-grad)" stroke-width="6" stroke-linecap="round" />
+                        <path class="tallo-grupo__brillo" d="M 248 680 Q 178 520 108 380" fill="none" stroke="#9bb88a"
+                            stroke-width="1.5" stroke-linecap="round" opacity="0.4" />
+                        <path class="tallo-grupo__sombra" d="M 253 680 Q 183 520 113 380" fill="none" stroke="#1a2e12"
+                            stroke-width="1.5" stroke-linecap="round" opacity="0.3" />
+                        <g class="hoja hoja--izq-1" style="transform-origin: 185px 560px; animation-delay: 1.2s;">
+                            <path class="hoja__forma" d="M 185 560 Q 130 530 110 580 Q 150 580 185 560 Z"
+                                fill="url(#hoja-grad)" />
+                            <path class="hoja__nervadura" d="M 185 560 Q 150 555 110 580" fill="none" stroke="#2e4a22"
+                                stroke-width="1.5" opacity="0.6" />
+                        </g>
+                        <g class="flor flor--1" transform="translate(115, 380)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 2.5s;"
+                                d="M -18 0 C -30 -15 -25 -30 -8 -28 C 0 -40 22 -40 30 -28 C 45 -30 50 -15 35 0 C 20 15 -8 15 -18 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 2.55s;"
+                                d="M -12 -15 C -22 -30 -10 -45 0 -35 C 10 -50 28 -45 22 -30 C 32 -20 22 -10 12 -15 C 0 -5 -15 -5 -12 -15 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 2.6s;"
+                                d="M -10 -5 C -18 -20 -8 -35 0 -25 C 8 -38 22 -30 15 -15 C 25 -5 15 5 8 -5 C 0 5 -15 5 -10 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 2.65s;"
+                                d="M -6 -5 C -12 -18 0 -25 6 -15 C 12 -22 22 -18 15 -8 C 8 0 -8 0 -6 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 2.7s;"
+                                d="M -4 -15 C -8 -25 5 -30 8 -20 C 15 -25 18 -15 12 -10 C 8 -5 -6 -5 -4 -15 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-12" r="4" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                        <g class="flor flor--1-2" transform="translate(110, 330)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 2.75s;"
+                                d="M -14 0 C -22 -12 -18 -25 -5 -22 C 0 -30 18 -30 24 -22 C 34 -25 40 -12 28 0 C 18 10 -8 10 -14 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 2.8s;"
+                                d="M -8 -5 C -12 -18 0 -25 6 -15 C 12 -22 20 -18 15 -8 C 8 0 -8 0 -8 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 2.85s;"
+                                d="M -4 -5 C -8 -15 0 -20 4 -12 C 8 -18 15 -15 12 -8 C 6 -2 -6 -2 -4 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-8" r="3" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                    </g>
+
+                    <!-- FLOR 7 (Derecha extrema) -->
+                    <g class="tallo-grupo">
+                        <path class="tallo-grupo__base" d="M 250 680 Q 320 520 390 380" fill="none"
+                            stroke="url(#tallo-grad)" stroke-width="6" stroke-linecap="round" />
+                        <path class="tallo-grupo__brillo" d="M 248 680 Q 318 520 388 380" fill="none" stroke="#9bb88a"
+                            stroke-width="1.5" stroke-linecap="round" opacity="0.4" />
+                        <path class="tallo-grupo__sombra" d="M 253 680 Q 323 520 393 380" fill="none" stroke="#1a2e12"
+                            stroke-width="1.5" stroke-linecap="round" opacity="0.3" />
+                        <g class="hoja hoja--der-7" style="transform-origin: 315px 560px; animation-delay: 1.2s;">
+                            <path class="hoja__forma" d="M 315 560 Q 370 530 390 580 Q 350 580 315 560 Z"
+                                fill="url(#hoja-grad)" />
+                            <path class="hoja__nervadura" d="M 315 560 Q 350 555 390 580" fill="none" stroke="#2e4a22"
+                                stroke-width="1.5" opacity="0.6" />
+                        </g>
+                        <g class="flor flor--7" transform="translate(385, 380)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 2.5s;"
+                                d="M -18 0 C -30 -15 -25 -30 -8 -28 C 0 -40 22 -40 30 -28 C 45 -30 50 -15 35 0 C 20 15 -8 15 -18 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 2.55s;"
+                                d="M -12 -15 C -22 -30 -10 -45 0 -35 C 10 -50 28 -45 22 -30 C 32 -20 22 -10 12 -15 C 0 -5 -15 -5 -12 -15 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 2.6s;"
+                                d="M -10 -5 C -18 -20 -8 -35 0 -25 C 8 -38 22 -30 15 -15 C 25 -5 15 5 8 -5 C 0 5 -15 5 -10 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 2.65s;"
+                                d="M -6 -5 C -12 -18 0 -25 6 -15 C 12 -22 22 -18 15 -8 C 8 0 -8 0 -6 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 2.7s;"
+                                d="M -4 -15 C -8 -25 5 -30 8 -20 C 15 -25 18 -15 12 -10 C 8 -5 -6 -5 -4 -15 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-12" r="4" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                        <g class="flor flor--7-2" transform="translate(390, 330)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 2.75s;"
+                                d="M -14 0 C -22 -12 -18 -25 -5 -22 C 0 -30 18 -30 24 -22 C 34 -25 40 -12 28 0 C 18 10 -8 10 -14 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 2.8s;"
+                                d="M -8 -5 C -12 -18 0 -25 6 -15 C 12 -22 20 -18 15 -8 C 8 0 -8 0 -8 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 2.85s;"
+                                d="M -4 -5 C -8 -15 0 -20 4 -12 C 8 -18 15 -15 12 -8 C 6 -2 -6 -2 -4 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-8" r="3" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                    </g>
+
+                    <!-- FLOR 2 (Izquierda media) -->
+                    <g class="tallo-grupo">
+                        <path class="tallo-grupo__base" d="M 250 680 Q 200 500 160 320" fill="none"
+                            stroke="url(#tallo-grad)" stroke-width="7" stroke-linecap="round" />
+                        <path class="tallo-grupo__brillo" d="M 248 680 Q 198 500 158 320" fill="none" stroke="#9bb88a"
+                            stroke-width="1.5" stroke-linecap="round" opacity="0.4" />
+                        <path class="tallo-grupo__sombra" d="M 253 680 Q 203 500 163 320" fill="none" stroke="#1a2e12"
+                            stroke-width="1.5" stroke-linecap="round" opacity="0.3" />
+                        <g class="hoja hoja--izq-2" style="transform-origin: 210px 530px; animation-delay: 1.5s;">
+                            <path class="hoja__forma" d="M 210 530 Q 160 500 140 550 Q 180 550 210 530 Z"
+                                fill="url(#hoja-grad)" />
+                            <path class="hoja__nervadura" d="M 210 530 Q 175 525 140 550" fill="none" stroke="#2e4a22"
+                                stroke-width="1.5" opacity="0.6" />
+                        </g>
+                        <g class="hoja hoja--der-2" style="transform-origin: 185px 430px; animation-delay: 1.8s;">
+                            <path class="hoja__forma" d="M 185 430 Q 230 400 250 450 Q 210 450 185 430 Z"
+                                fill="url(#hoja-grad)" />
+                            <path class="hoja__nervadura" d="M 185 430 Q 215 435 250 450" fill="none" stroke="#2e4a22"
+                                stroke-width="1.5" opacity="0.6" />
+                        </g>
+                        <g class="flor flor--2" transform="translate(160, 320)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 3.5s;"
+                                d="M -20 0 C -35 -15 -30 -35 -10 -32 C 0 -45 25 -45 35 -32 C 50 -35 55 -15 40 0 C 25 20 -10 20 -20 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 3.55s;"
+                                d="M -15 -20 C -30 -40 -15 -60 0 -50 C 15 -65 35 -55 25 -35 C 40 -20 25 -10 10 -20 C 0 -5 -20 -5 -15 -20 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 3.6s;"
+                                d="M -12 -5 C -25 -20 -15 -40 -5 -30 C 5 -45 25 -40 20 -20 C 30 -10 20 0 10 -5 C 0 5 -20 5 -12 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 3.65s;"
+                                d="M -8 -25 C -20 -45 -5 -60 5 -45 C 15 -55 30 -45 20 -25 C 30 -15 15 -5 5 -15 C -5 -5 -15 -15 -8 -25 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 3.7s;"
+                                d="M -8 -5 C -15 -20 0 -30 5 -18 C 15 -25 25 -20 18 -10 C 10 -2 -15 -2 -8 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 3.75s;"
+                                d="M -5 -20 C -10 -35 5 -40 10 -28 C 18 -35 25 -30 18 -20 C 10 -12 -10 -12 -5 -20 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-20" r="5" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                        <g class="flor flor--2-2" transform="translate(155, 270)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 3.8s;"
+                                d="M -15 0 C -25 -12 -20 -28 -8 -25 C 0 -35 18 -35 25 -25 C 35 -28 40 -12 28 0 C 18 12 -8 12 -15 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 3.85s;"
+                                d="M -10 -5 C -15 -20 -5 -30 0 -22 C 8 -30 20 -25 15 -12 C 20 -5 12 5 6 -2 C 0 5 -12 5 -10 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 3.9s;"
+                                d="M -5 -5 C -10 -18 0 -25 5 -15 C 10 -20 18 -18 12 -8 C 6 0 -6 0 -5 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-10" r="4" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                    </g>
+
+                    <!-- FLOR 6 (Derecha media) -->
+                    <g class="tallo-grupo">
+                        <path class="tallo-grupo__base" d="M 250 680 Q 300 500 340 320" fill="none"
+                            stroke="url(#tallo-grad)" stroke-width="7" stroke-linecap="round" />
+                        <path class="tallo-grupo__brillo" d="M 248 680 Q 298 500 338 320" fill="none" stroke="#9bb88a"
+                            stroke-width="1.5" stroke-linecap="round" opacity="0.4" />
+                        <path class="tallo-grupo__sombra" d="M 253 680 Q 303 500 343 320" fill="none" stroke="#1a2e12"
+                            stroke-width="1.5" stroke-linecap="round" opacity="0.3" />
+                        <g class="hoja hoja--izq-6" style="transform-origin: 290px 530px; animation-delay: 1.5s;">
+                            <path class="hoja__forma" d="M 290 530 Q 240 500 220 550 Q 260 550 290 530 Z"
+                                fill="url(#hoja-grad)" />
+                            <path class="hoja__nervadura" d="M 290 530 Q 255 525 220 550" fill="none" stroke="#2e4a22"
+                                stroke-width="1.5" opacity="0.6" />
+                        </g>
+                        <g class="hoja hoja--der-6" style="transform-origin: 315px 430px; animation-delay: 1.8s;">
+                            <path class="hoja__forma" d="M 315 430 Q 270 400 250 450 Q 290 450 315 430 Z"
+                                fill="url(#hoja-grad)" />
+                            <path class="hoja__nervadura" d="M 315 430 Q 285 435 250 450" fill="none" stroke="#2e4a22"
+                                stroke-width="1.5" opacity="0.6" />
+                        </g>
+                        <g class="flor flor--6" transform="translate(340, 320)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 3.5s;"
+                                d="M -20 0 C -35 -15 -30 -35 -10 -32 C 0 -45 25 -45 35 -32 C 50 -35 55 -15 40 0 C 25 20 -10 20 -20 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 3.55s;"
+                                d="M -15 -20 C -30 -40 -15 -60 0 -50 C 15 -65 35 -55 25 -35 C 40 -20 25 -10 10 -20 C 0 -5 -20 -5 -15 -20 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 3.6s;"
+                                d="M -12 -5 C -25 -20 -15 -40 -5 -30 C 5 -45 25 -40 20 -20 C 30 -10 20 0 10 -5 C 0 5 -20 5 -12 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 3.65s;"
+                                d="M -8 -25 C -20 -45 -5 -60 5 -45 C 15 -55 30 -45 20 -25 C 30 -15 15 -5 5 -15 C -5 -5 -15 -15 -8 -25 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 3.7s;"
+                                d="M -8 -5 C -15 -20 0 -30 5 -18 C 15 -25 25 -20 18 -10 C 10 -2 -15 -2 -8 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 3.75s;"
+                                d="M -5 -20 C -10 -35 5 -40 10 -28 C 18 -35 25 -30 18 -20 C 10 -12 -10 -12 -5 -20 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-20" r="5" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                        <g class="flor flor--6-2" transform="translate(345, 270)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 3.8s;"
+                                d="M -15 0 C -25 -12 -20 -28 -8 -25 C 0 -35 18 -35 25 -25 C 35 -28 40 -12 28 0 C 18 12 -8 12 -15 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 3.85s;"
+                                d="M -10 -5 C -15 -20 -5 -30 0 -22 C 8 -30 20 -25 15 -12 C 20 -5 12 5 6 -2 C 0 5 -12 5 -10 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 3.9s;"
+                                d="M -5 -5 C -10 -18 0 -25 5 -15 C 10 -20 18 -18 12 -8 C 6 0 -6 0 -5 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-10" r="4" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                    </g>
+
+                    <!-- FLOR 3 (Centro-Izquierda) -->
+                    <g class="tallo-grupo">
+                        <path class="tallo-grupo__base" d="M 250 680 Q 230 500 210 280" fill="none"
+                            stroke="url(#tallo-grad)" stroke-width="7" stroke-linecap="round" />
+                        <path class="tallo-grupo__brillo" d="M 248 680 Q 228 500 208 280" fill="none" stroke="#9bb88a"
+                            stroke-width="1.5" stroke-linecap="round" opacity="0.4" />
+                        <path class="tallo-grupo__sombra" d="M 253 680 Q 233 500 213 280" fill="none" stroke="#1a2e12"
+                            stroke-width="1.5" stroke-linecap="round" opacity="0.3" />
+                        <g class="hoja hoja--izq-3" style="transform-origin: 235px 540px; animation-delay: 1.8s;">
+                            <path class="hoja__forma" d="M 235 540 Q 185 520 165 570 Q 205 570 235 540 Z"
+                                fill="url(#hoja-grad)" />
+                            <path class="hoja__nervadura" d="M 235 540 Q 200 545 165 570" fill="none" stroke="#2e4a22"
+                                stroke-width="1.5" opacity="0.6" />
+                        </g>
+                        <g class="flor flor--3" transform="translate(210, 280)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 4.5s;"
+                                d="M -22 0 C -38 -15 -32 -35 -12 -32 C 0 -45 28 -45 38 -32 C 55 -35 60 -15 45 0 C 28 20 -12 20 -22 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 4.55s;"
+                                d="M -18 -20 C -35 -40 -18 -65 0 -55 C 18 -70 40 -60 28 -35 C 45 -20 28 -10 12 -20 C 0 -5 -22 -5 -18 -20 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 4.6s;"
+                                d="M -14 -5 C -28 -20 -18 -45 -5 -35 C 5 -50 28 -45 22 -20 C 35 -10 22 0 12 -5 C 0 5 -22 5 -14 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 4.65s;"
+                                d="M -10 -25 C -22 -45 -5 -65 5 -50 C 18 -60 35 -50 22 -25 C 35 -15 18 -5 5 -15 C -5 -5 -18 -15 -10 -25 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 4.7s;"
+                                d="M -10 -5 C -18 -20 0 -32 6 -20 C 18 -28 28 -20 20 -10 C 12 -2 -18 -2 -10 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 4.75s;"
+                                d="M -6 -22 C -12 -38 5 -45 12 -32 C 20 -40 28 -30 20 -22 C 12 -12 -12 -12 -6 -22 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-20" r="6" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                        <g class="flor flor--3-2" transform="translate(205, 230)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 4.8s;"
+                                d="M -16 0 C -28 -15 -22 -30 -8 -28 C 0 -38 20 -38 28 -28 C 40 -30 45 -15 32 0 C 20 15 -8 15 -16 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 4.85s;"
+                                d="M -12 -5 C -20 -20 -10 -35 0 -25 C 10 -35 22 -30 16 -15 C 25 -5 15 5 8 -5 C 0 5 -15 5 -12 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 4.9s;"
+                                d="M -6 -5 C -12 -18 0 -25 6 -15 C 12 -22 20 -18 15 -8 C 8 0 -8 0 -6 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 4.95s;"
+                                d="M -4 -15 C -8 -25 5 -30 8 -20 C 12 -25 18 -15 12 -10 C 8 -5 -6 -5 -4 -15 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-10" r="4" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                    </g>
+
+                    <!-- FLOR 5 (Centro-Derecha) -->
+                    <g class="tallo-grupo">
+                        <path class="tallo-grupo__base" d="M 250 680 Q 270 500 290 280" fill="none"
+                            stroke="url(#tallo-grad)" stroke-width="7" stroke-linecap="round" />
+                        <path class="tallo-grupo__brillo" d="M 248 680 Q 268 500 288 280" fill="none" stroke="#9bb88a"
+                            stroke-width="1.5" stroke-linecap="round" opacity="0.4" />
+                        <path class="tallo-grupo__sombra" d="M 253 680 Q 273 500 293 280" fill="none" stroke="#1a2e12"
+                            stroke-width="1.5" stroke-linecap="round" opacity="0.3" />
+                        <g class="hoja hoja--der-5" style="transform-origin: 265px 540px; animation-delay: 1.8s;">
+                            <path class="hoja__forma" d="M 265 540 Q 315 520 335 570 Q 295 570 265 540 Z"
+                                fill="url(#hoja-grad)" />
+                            <path class="hoja__nervadura" d="M 265 540 Q 300 545 335 570" fill="none" stroke="#2e4a22"
+                                stroke-width="1.5" opacity="0.6" />
+                        </g>
+                        <g class="flor flor--5" transform="translate(290, 280)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 4.5s;"
+                                d="M -22 0 C -38 -15 -32 -35 -12 -32 C 0 -45 28 -45 38 -32 C 55 -35 60 -15 45 0 C 28 20 -12 20 -22 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 4.55s;"
+                                d="M -18 -20 C -35 -40 -18 -65 0 -55 C 18 -70 40 -60 28 -35 C 45 -20 28 -10 12 -20 C 0 -5 -22 -5 -18 -20 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 4.6s;"
+                                d="M -14 -5 C -28 -20 -18 -45 -5 -35 C 5 -50 28 -45 22 -20 C 35 -10 22 0 12 -5 C 0 5 -22 5 -14 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 4.65s;"
+                                d="M -10 -25 C -22 -45 -5 -65 5 -50 C 18 -60 35 -50 22 -25 C 35 -15 18 -5 5 -15 C -5 -5 -18 -15 -10 -25 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 4.7s;"
+                                d="M -10 -5 C -18 -20 0 -32 6 -20 C 18 -28 28 -20 20 -10 C 12 -2 -18 -2 -10 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 4.75s;"
+                                d="M -6 -22 C -12 -38 5 -45 12 -32 C 20 -40 28 -30 20 -22 C 12 -12 -12 -12 -6 -22 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-20" r="6" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                        <g class="flor flor--5-2" transform="translate(295, 230)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 4.8s;"
+                                d="M -16 0 C -28 -15 -22 -30 -8 -28 C 0 -38 20 -38 28 -28 C 40 -30 45 -15 32 0 C 20 15 -8 15 -16 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 4.85s;"
+                                d="M -12 -5 C -20 -20 -10 -35 0 -25 C 10 -35 22 -30 16 -15 C 25 -5 15 5 8 -5 C 0 5 -15 5 -12 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 4.9s;"
+                                d="M -6 -5 C -12 -18 0 -25 6 -15 C 12 -22 20 -18 15 -8 C 8 0 -8 0 -6 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 4.95s;"
+                                d="M -4 -15 C -8 -25 5 -30 8 -20 C 12 -25 18 -15 12 -10 C 8 -5 -6 -5 -4 -15 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-10" r="4" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                    </g>
+
+                    <!-- FLOR 4 (Centro, la más alta) -->
+                    <g class="tallo-grupo">
+                        <path class="tallo-grupo__base" d="M 250 680 Q 260 450 250 220" fill="none"
+                            stroke="url(#tallo-grad)" stroke-width="8" stroke-linecap="round" />
+                        <path class="tallo-grupo__brillo" d="M 248 680 Q 258 450 248 220" fill="none" stroke="#9bb88a"
+                            stroke-width="2" stroke-linecap="round" opacity="0.4" />
+                        <path class="tallo-grupo__sombra" d="M 253 680 Q 263 450 253 220" fill="none" stroke="#1a2e12"
+                            stroke-width="1.5" stroke-linecap="round" opacity="0.3" />
+                        <g class="hoja hoja--izq-4" style="transform-origin: 245px 550px; animation-delay: 2.1s;">
+                            <path class="hoja__forma" d="M 245 550 Q 195 530 175 580 Q 215 580 245 550 Z"
+                                fill="url(#hoja-grad)" />
+                            <path class="hoja__nervadura" d="M 245 550 Q 210 555 175 580" fill="none" stroke="#2e4a22"
+                                stroke-width="1.5" opacity="0.6" />
+                        </g>
+                        <g class="hoja hoja--der-4" style="transform-origin: 255px 430px; animation-delay: 2.4s;">
+                            <path class="hoja__forma" d="M 255 430 Q 305 400 325 450 Q 285 450 255 430 Z"
+                                fill="url(#hoja-grad)" />
+                            <path class="hoja__nervadura" d="M 255 430 Q 290 435 325 450" fill="none" stroke="#2e4a22"
+                                stroke-width="1.5" opacity="0.6" />
+                        </g>
+                        <g class="flor flor--4" transform="translate(250, 220)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 5.5s;"
+                                d="M -24 0 C -42 -15 -35 -40 -14 -36 C 0 -50 30 -50 42 -36 C 60 -40 68 -15 50 0 C 30 22 -14 22 -24 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 5.55s;"
+                                d="M -20 -20 C -38 -45 -20 -70 0 -60 C 20 -75 45 -65 32 -40 C 50 -25 32 -10 14 -20 C 0 -5 -25 -5 -20 -20 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 5.6s;"
+                                d="M -16 -5 C -32 -20 -20 -50 -6 -40 C 6 -55 32 -50 24 -25 C 38 -10 24 0 14 -5 C 0 5 -25 5 -16 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 5.65s;"
+                                d="M -12 -25 C -25 -50 -6 -70 6 -55 C 20 -65 38 -55 24 -25 C 38 -15 20 -5 6 -15 C -6 -5 -20 -15 -12 -25 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 5.7s;"
+                                d="M -12 -5 C -20 -25 0 -35 6 -22 C 20 -30 32 -22 22 -10 C 14 -2 -20 -2 -12 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 5.75s;"
+                                d="M -8 -25 C -14 -45 6 -50 14 -38 C 22 -45 32 -35 22 -25 C 14 -12 -14 -12 -8 -25 Z"
+                                fill="url(#petalo-luz)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 5.8s;"
+                                d="M 0 -10 C -6 -30 14 -38 18 -25 C 28 -30 32 -15 20 -10 C 14 0 -6 0 0 -10 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-25" r="7" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                        <g class="flor flor--4-2" transform="translate(250, 150)">
+                            <path class="petalo petalo--sombra" style="transform-origin: 0 0; animation-delay: 5.9s;"
+                                d="M -18 0 C -30 -15 -25 -30 -8 -28 C 0 -40 22 -40 30 -28 C 45 -30 50 -15 35 0 C 20 15 -8 15 -18 0 Z"
+                                fill="url(#petalo-sombra)" />
+                            <path class="petalo petalo--medio" style="transform-origin: 0 0; animation-delay: 5.95s;"
+                                d="M -12 -5 C -20 -20 -10 -35 0 -25 C 10 -35 25 -30 18 -15 C 28 -5 15 5 8 -5 C 0 5 -15 5 -12 -5 Z"
+                                fill="url(#petalo-medio)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 6.0s;"
+                                d="M -6 -5 C -12 -18 0 -25 6 -15 C 12 -22 22 -18 15 -8 C 8 0 -8 0 -6 -5 Z"
+                                fill="url(#petalo-luz)" />
+                            <path class="petalo petalo--luz" style="transform-origin: 0 0; animation-delay: 6.05s;"
+                                d="M -4 -15 C -8 -25 5 -30 8 -20 C 15 -25 18 -15 12 -10 C 8 -5 -6 -5 -4 -15 Z"
+                                fill="url(#petalo-luz)" />
+                            <circle class="flor__centro" cx="0" cy="-10" r="4" fill="url(#centro-flor)" opacity="0" />
+                        </g>
+                    </g>
+
+                </g>
+
+                <!-- Partículas de polen -->
+                <circle class="polen polen--1" cx="180" cy="300" r="3" fill="#d4b8ea" />
+                <circle class="polen polen--2" cx="320" cy="200" r="2.5" fill="#e0c8f0" />
+                <circle class="polen polen--3" cx="120" cy="150" r="2" fill="#c9a8e0" />
+                <circle class="polen polen--4" cx="380" cy="200" r="3" fill="#d4b8ea" />
+                <circle class="polen polen--5" cx="250" cy="50" r="2" fill="#e0c8f0" />
+            </svg>
+        </div>
+
+
+        <div class="texto texto--derecha">
+            <p class="texto__frase">
+                Por todas las flores <br>
+                <span class="texto__resaltado texto__resaltado--2">que no pude darle</span>
+            </p>
+        </div>
+
+    </main>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+
+</html>
